@@ -1,0 +1,221 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>My Portfolio</title> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/92051ce175.js" crossorigin="anonymous"></script>
+</head> 
+<body> 
+
+  <div id="header">
+     <div class="container">
+       <nav>
+          <p class="logo"> De<span>vish.</span></p>
+          <ul id="sidemenu">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfilio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+       </nav>
+       <div class="header-text"> 
+           <p>Analyst</p>
+           <h1>Hi, I'm <span>Devish</span><br>from India</h1>
+      </div> 
+  </div>
+</div>
+
+<!-- about -->
+<div id="about">
+   <div class="container">
+        <div class="row">
+            <div class="about-col-1"> 
+                <img src="profile_image.jpg"> 
+            </div>
+            <div class="about-col-2">
+                  <h1 class="sub-title"> About Me</h1>
+                    <p>Empowering informed decision-making through data-driven insights, 
+                    I specialize in extracting, transforming, and reporting complex data from diverse sources.
+                     With expertise in SQL and cutting-edge technologies, I craft custom reports, charts, 
+                     and dashboards that distill data into actionable intelligence. Proficient in data manipulation and 
+                     visualization, I uncover hidden patterns and trends, illuminating paths to business growth and
+                     optimization.</P>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="myfunction('skills')"> Skills </P>
+                        <p class="tab-links" onclick="myfunction('experience')"> Experience </P>
+                        <p class="tab-links" onclick="myfunction('education')"> Education </P>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul> 
+                           <li><span>Excel</span><br>Strong proficiency in advanced Excel functions,  data visualization tools and the ability to create clear, informative reports and dashboards.</li>
+                           <li><span>Python</span><br>Analyze complex datasets using Python libraries like Pandas, NumPy and SciPy.Data collection and cleaning processes using Python scripts.</li>
+                           <li><span>Sql</span><br>Develop complex SQL queries to extract and analyze large datasets efficiently, data requirements and reporting needs.</li>
+                           <li><span>Power BI</span><br>Power BI Data Analyst skilled in creating interactive dashboards and reports to drive business decisions.</li>
+                           <li><span>Machine Learning</span><br>Developed and deployed machine learning models to analyze complex datasets, enabling data-driven decision-making and actionable insights.</li>
+                        </ul>
+                    </div>   
+                    <div class="tab-contents" id="experience">
+                        <ul> 
+                           <li><span>Nov 2024- Dec 2024</span><br> Data	Analytics and Visualization at Accenture (Virtual Internship from Forage)</li>
+                           <li><span>Feb 2024- Apr 2024</span><br> Artificial Intelligence and Machine Learning at Innovate Intern (Virtual Internship from AICTE).</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul> 
+                           <li><span>B.Tech 2020-2024</span><br>Electronics And Communication Engneering at SITAMS.<br>CGPA:8.41/10</br></li>
+                           <li><span>Intermediate 2018- 2020</span><br>MPC at Vivekanandha Junior collage.<br>CGPA:9.17/10</br></li>
+                           <li><span>10th 2017-2018</span><br>High School at ZPHS Thugundram.<br>CGPA:8.8/10</br></li>
+                        </ul>
+                    </div> 
+            </div>
+        </div>    
+    </div>
+</div>
+<!-- -Services- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list"> 
+           <div> 
+              <i class="fa-solid fa-code"></i>
+              <h2>Data Analyst </h2>
+              <p> &emsp;&emsp; analyzing complex datasets to uncover actionable insights, 
+              optimize business performance, and support data-driven decision-making </p>
+              <a href="#">Learn more</a>
+           </div>
+           <div> 
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <h2>Business Analysis</h2> 
+              <p> &emsp;&emsp;Proficient in stakeholder management, process improvement, 
+              and tools such as SQL, Excel, and Power BI to deliver actionable insights and
+               drive strategic decisions.. </p>
+              <a href="#">Learn more</a>
+           </div>
+           <div> 
+              <i class="fa-solid fa-chart-pie"></i>
+              <h2>Machine Learning </h2>
+              <p>Applied machine learning techniques to analyze large datasets, 
+              develop predictive models, and uncover actionable insights to support business 
+              objectives. </p>
+              <a href="#">Learn more</a>
+           </div>
+        </div>
+    </div>
+</div> 
+<!-- Portfilio   -->
+<div id="portfilio">
+    <div class="container">
+         <h1 class="sub-title">My Projects</h1>
+        <div class="work-list"> 
+           <div class="work"> 
+               <img src="Kix_Business_Profit_View.png">
+               <div class="layer">
+                  <h3>Online Drinks Sales Analysis</h3>
+                  <p>Analyzed e-commerce sales data in Excel using advanced functions, pivot tables, and charts to identify trends,
+                   improve sales strategies, and enhance decision-making.</p>
+                   <a href="https://github.com/DevishReddy/Excel"><u>Github</u></a>
+                   <h4>Tools: Advance Excel, VBA, Macros.</h4>
+               </div>
+           </div>
+           <div class="work"> 
+               <img src="bitcoin_price_prediction.png">
+                <div class="layer">
+                  <h3>Bitcoin Price Prediction</h3>
+                  <p>Worked closely with supply chain teams to ensure timely restocking of high-demand beverages.
+Provided actionable insights that contributed to strategic decisions regarding product offerings.</p>
+                   <a href="https://github.com/DevishReddy/Python"><u>Github</u></i></a>
+                    <h4>Tools: Python, EDA, Machine Learning.</h4>              
+               </div>
+           </div>
+           <div class="work"> 
+                <li><img src="LogisticAndSupplyChain_Analysis.png"></li>
+               <div class="layer">
+                  <h3>logistics And Company Supply Chain Analysis</h3>
+                  <p>Optimized logistics and supply chain operations by analyzing data to streamline processes, 
+                  reduce costs, and improve efficiency using data-driven insights.</p>
+                  <a href="https://github.com/DevishReddy/PowerBI"><u>Github</u></a>
+                   <h4>Tools:MySqL,Power BI.</h4>               
+                </div>
+           </div>
+           <div class="work" >
+               <img src="financial_analysis_overview.png">  
+               <div class="layer">
+                  <h3>E-Commerce Sales Analysis</h3>
+                  <p>Developed interactive Power BI dashboards for financial analysis, providing actionable insights
+                   into profitability, budgeting, and expense tracking.</p>
+                   <a href="https://github.com/DevishReddy/PowerBI"><u>Github</u></a>
+                   <h4>Tools: Power BI</h4>
+               </div>
+            </div> 
+        </div
+           <li><a href="https://github.com/DevishReddy" class="btn">See More</a></li>
+    </div>
+</div>
+
+<!--            Contact          -->
+<div id="contact">
+    <div class="container">
+       <div class="row"> 
+           <div class="contact-left">
+              <h1 class="sub-title"> Contact Me </h1>
+              <p><i class="fa-solid fa-paper-plane"></i> devishreddy@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i> +91 9542241480</p>
+              <p><i class="fa-brands fa-linkedin"></i> https://www.linkedin.com/in/d-devish</p>
+              <div class="social-icons">
+                  <a href="https://www.linkedin.com/in/d-devish"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="mailto:devishreddy@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                  <a href="https://github.com/DevishReddy"<i class="fa-brands fa-github"></i></a>
+              </div>
+              <a href="Devish.docx" download class="btn btn2">Download CV</a>
+           </div>
+           <div class="contact-right">
+              <from>
+                 <a href="mailto:devishreddy@gmail.com"> <button type="submit" class="btn btn2 btn3" >Hire Me <i class="fa-solid fa-square-arrow-up-right"></i> </button></a>
+              </from>
+            </div>  
+       </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright © devish. Made for <i class="fa-solid fa-heart"></i> personal Portfilio</p>
+    </div>
+</div>
+
+
+
+<script>
+   var tablinks=document.getElementsByClassName("tab-links"); 
+   var tabcontents=document.getElementsByClassName("tab-contents"); 
+
+   function myfunction(tabname) {
+       for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+       }
+       for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+       }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+   }
+   
+
+</script>
+
+<script>
+   var sidemeu = document.getElementById("sidemenu");
+   function openmenu(){
+       sidemeu.style.right ="0";
+   }
+   function closemenu(){
+       sidemeu.style.right ="-200px";
+   }
+</script>
+
+</body> 
+</html>
